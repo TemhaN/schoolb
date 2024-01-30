@@ -1,3 +1,17 @@
+* {
+  list-style: none;
+}
+
+tr:first-child, td:first-child {
+  font-weight: bold;
+}
+
+table {
+  margin-top: 15px;
+  text-align: center;
+}
+
+
 body {
   margin: 0;
   padding: 0;
@@ -11,6 +25,7 @@ body {
   border-top: 1px solid #778899;
   border-bottom: 1px dotted #B2BCC6;
   height: 3em;
+  padding: 20px;
 }
 
 #header .slogan {
@@ -20,15 +35,14 @@ body {
   float: right;
   width: 300px;
   text-align: right;
-  margin-right: 2em;
+  margin-right: 2.5em;
   margin-top: 0.5em;
 }
 
 #header .logo {
   float: left;
-  width: 187px;
   margin-left: 1.5em;
-  margin-top: 0.5em;
+  margin-top: -15px;
 }
 
 #nav {
@@ -107,3 +121,4 @@ form {
   color: #2A4F6F;
   background-color: transparent;
 }
+
